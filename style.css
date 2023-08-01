@@ -9,11 +9,6 @@
 
 }
 
-.monstserrat_font {
-    font-family: 'Montserrat', sans-serif;
-}
-
-
 /* Header */
 header {
     display: flex;
@@ -66,6 +61,7 @@ main {
     justify-items: center;
     gap: 18px;
 }
+
 .left_side > img {
     height: 545px;
 }
@@ -98,13 +94,106 @@ main {
 }
 
 .right_side > ul {
-
+    margin: 14px auto;
 }
 
 ul li {
-
+    list-style-type: none;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 400;  
 }
 
+.divider {
+    margin: 20px auto;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.divider_pict {
+    display: flex;
+    align-items: center;
+}
+
+ .divider > p {
+    color: #000;
+	text-align: center;
+    font-size: 24px;
+    font-weight: 300;
+ }
+
+.container_of3 {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.container {
+    width: 33%;
+    height: 100%;
+    background: #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; box-sizing: border-box; 
+}
+
+.upper_container {
+    padding: 6px 0;
+    height: 48px;
+    width: 100%;
+    border: 2px solid #A8DA93;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.upper_container p:first-child {
+    font-size: 11px;
+    font-weight: 300;
+}
+
+.upper_container p:nth-child(2) {
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+#upper_left {
+    opacity: 0;
+}
+
+#upper_center {
+    background-color: #154104;
+    color: #FFF;
+}
+ 
+.small_container {
+    height: 100%;
+    border: 2px solid #A8DA93;
+    border-radius: 10px;
+    padding: 13px 6px;
+    align-items:center;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+#set1 {
+    height: 180px;
+}
+.small_pict {
+    margin-top: 15%;
+    margin-bottom: 24%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+.small_pict img {
+    width: 64px;
+    height: 98px;
+}
 
 .green_btn {
     width: 100%;
@@ -126,8 +215,6 @@ ul li {
     position: absolute;
     margin-left: 4px;
 }
-
-
 
 .additional_conditions {
     margin: 14px auto;
